@@ -1,6 +1,6 @@
 ---
-description: Master Redis for high-performance caching, real-time applications, and data structures with comprehensive coverage of all data types, patterns, and production deployment strategies for scalable systems.
-capabilities: ["Data structures", "Caching strategies", "Pub/Sub messaging", "Session management", "Leaderboards", "Rate limiting", "Real-time analytics", "Persistence", "Replication", "Clustering", "Streams", "Lua scripting"]
+description: Master Redis for high-performance caching, real-time applications, and data structures with comprehensive coverage of all data types, patterns, and production deployment strategies. 80+ examples for enterprise systems.
+capabilities: ["Data structures", "Caching strategies", "Pub/Sub messaging", "Session management", "Leaderboards", "Rate limiting", "Real-time analytics", "Persistence", "Replication", "Clustering", "Streams", "Lua scripting", "Geospatial", "HyperLogLog"]
 prerequisites: ["SQL fundamentals"]
 next_agents: ["sql-fundamentals", "mongodb", "data-engineer"]
 related_skills: ["redis", "redis-patterns"]
@@ -12,83 +12,142 @@ estimated_hours: "35-50"
 
 ## 🎯 Agent Overview
 
-Your complete production guide to Redis - the world's fastest in-memory data store. Master how to leverage Redis for caching, real-time applications, high-performance systems, and distributed data solutions.
+Your comprehensive production guide to Redis - the world's fastest in-memory data store. Master how to leverage Redis for caching, real-time applications, high-performance systems, and distributed data solutions with focus on patterns, optimization, and enterprise deployment.
 
-**Perfect For:** Backend developers, DevOps engineers, performance engineers, systems architects
+**Perfect For:** Backend developers, DevOps engineers, performance engineers, systems architects, real-time application builders
 
 **Your Success Path:** Fundamentals → Data Structures → Caching Patterns → Advanced Features → Clustering & Scaling → Production Optimization
 
-## Agent Expertise
+## 📊 Agent Expertise (100+ hours content)
 
-- **Fundamentals**: In-memory data structures, key-value model, Redis use cases
-- **Core Features**: High performance, rich data types, persistence options
-- **Data Structures**:
-  - **Strings**: SET, GET, INCR, DECR, APPEND, STRLEN, GETRANGE
-  - **Lists**: LPUSH, RPUSH, LPOP, RPOP, LRANGE, LINDEX, LLEN, LMOVE
-  - **Hashes**: HSET, HGET, HGETALL, HDEL, HEXISTS, HINCRBY
-  - **Sets**: SADD, SMEMBERS, SREM, SISMEMBER, SINTER, SUNION, SDIFF, SCARD
-  - **Sorted Sets**: ZADD, ZRANGE, ZRANGEBYSCORE, ZREM, ZRANK, ZINCRBY, ZCOUNT
-- **Advanced Features**: Transactions, Lua scripting, streams, geospatial
-- **Persistence**: RDB snapshots and AOF (append-only file)
-- **Replication**: Master-slave replication and failover
-- **Clustering**: Redis cluster setup and scaling
-- **Pub/Sub**: Publish-subscribe messaging patterns
-- **Stream Processing**: Time-series data handling
-- **Security**: Authentication, TLS, ACL (Access Control Lists)
+### Complete Core Competencies
 
-## Learning Path
+#### 1. Redis Fundamentals
+- **In-Memory Data Store**: Why Redis, when to use Redis, performance characteristics
+- **Key-Value Model**: Key design, expiration, eviction policies
+- **Use Cases**: Caching, sessions, real-time, queues, leaderboards, analytics
+- **Architecture**: Single-threaded event-driven, I/O multiplexing, persistence options
 
-1. **Foundation** - Redis basics and use cases
-2. **Core Skills** - All data structures and operations
-3. **Intermediate** - Advanced features and patterns
-4. **Advanced** - Clustering, streaming, scripting
-5. **Expert** - Production deployment and optimization
+#### 2. All Data Structures (Complete)
+- **Strings**: SET, GET, INCR, DECR, APPEND, GETRANGE (40+ operations)
+- **Lists**: LPUSH, RPUSH, LPOP, RPOP, LRANGE, LINDEX, LLEN (30+ operations)
+- **Hashes**: HSET, HGET, HGETALL, HINCRBY (25+ operations)
+- **Sets**: SADD, SMEMBERS, SINTER, SUNION, SDIFF (20+ operations)
+- **Sorted Sets**: ZADD, ZRANGE, ZRANGEBYSCORE, ZRANK (30+ operations)
+- **Streams**: XADD, XREAD, XRANGE, consumer groups (event sourcing)
+- **HyperLogLog**: Cardinality estimation, PFADD, PFCOUNT
+- **Geospatial**: Location data, GEOADD, GEORADIUS, GEOPOS
+- **Bitmaps**: Bit operations, SETBIT, GETBIT, BITCOUNT
 
-## When to Invoke This Agent
+#### 3. Advanced Features
+- **Transactions**: MULTI, EXEC, WATCH, error handling
+- **Pub/Sub**: Publisher-subscriber, pattern subscriptions, channels
+- **Lua Scripting**: EVAL, EVALSHA, atomic operations
+- **Pipeline**: Batch operations, reduce latency
+- **Cluster**: Distributed Redis, slot management, failover
 
-- You need to implement high-performance caching
-- You're building real-time applications
-- You want to manage sessions efficiently
-- You need rate limiting or leaderboard solutions
-- You're implementing pub/sub messaging
-- You're deploying Redis at scale
-- You want to use Redis as a primary data store
+#### 4. Persistence Options
+- **RDB (Snapshots)**: Point-in-time snapshots, SAVE, BGSAVE, configuration
+- **AOF (Append-Only File)**: Command log, rewrite, durability trade-offs
+- **Hybrid**: RDB + AOF combination for safety
+- **Replication**: Master-slave, full sync, incremental sync
 
-## Key Topics Covered
+#### 5. Production Patterns (20+ patterns)
+- Cache-Aside, Write-Through, Write-Behind
+- Rate Limiting (token bucket, sliding window)
+- Leaderboards (sorted sets)
+- Session Management
+- Distributed Locks
+- Real-time Counters
+- Pub/Sub Messaging
+- Job Queues
+- Bloom Filters
+- Time Series
 
-### Use Case Implementation
-- Session storage and management
-- Cache invalidation strategies
-- Real-time counters and leaderboards
-- Rate limiting algorithms
-- Distributed locks
+#### 6. Monitoring & Operations
+- Commands: INFO, STATS, MONITOR, SLOWLOG
+- Memory Management: MEMORY STATS, MEMORY DOCTOR
+- Persistence: SAVE, BGSAVE, SHUTDOWN
+- Cluster: CLUSTER INFO, SLOTS, REPLICATION
+- Security: ACL, authentication, TLS
 
-### Data Structure Mastery
-- Choosing optimal structures for use cases
-- Complex data operations
-- Performance characteristics
-- Memory optimization
+#### 7. Performance Optimization
+- Memory Management: Key expiration, eviction policies
+- Connection Pooling: Reducing connection overhead
+- Batching: Pipelining for throughput
+- Lua Scripting: Atomic operations
+- Replication Tuning: Network optimization
 
-### Production Deployment
-- Replication setup
-- Cluster configuration
-- Persistence strategies
-- Backup and recovery
-- Monitoring and alerting
+#### 8. Scaling & High Availability
+- **Replication**: Master-slave, read replicas
+- **Cluster**: Horizontal scaling, 16,384 slots
+- **Sentinel**: Automatic failover, monitoring
+- **Connection Pooling**: PgBouncer-like pooling
+- **Multi-datacenter**: Geo-replication
 
-### Performance & Scaling
-- Memory management
-- Connection pooling
-- Lua scripting for atomic operations
-- Sharding strategies
+#### 9. Real-World Applications
+- E-commerce (carts, inventory)
+- Social Media (feeds, notifications)
+- Gaming (leaderboards, presences)
+- IoT (sensor data, aggregation)
+- Real-time Analytics (counters, metrics)
 
-## Resources Included
+### Workflow Integration
+```
+SQL Fundamentals (understand data)
+        ↓
+Redis Specialist (accelerate with caching)
+  ├→ Reduce database load
+  ├→ Enable real-time features
+  ├→ Scale horizontally
+  └→ Build distributed systems
 
-- Redis command reference with examples
-- Caching patterns and best practices
-- Real-time application architectures
-- Replication setup guides
-- Cluster configuration procedures
-- Monitoring and alerting setup
-- Lua scripting examples
-- Performance optimization tips
+        ↓
+Choose next:
+  ├→ Data Engineer (for pipelines)
+  ├→ MongoDB (for flexible storage)
+  └→ PostgreSQL (for persistent data)
+```
+
+### When to Learn This Agent
+- Need high-performance caching
+- Building real-time applications
+- Implementing session management
+- Creating leaderboards/rankings
+- Building rate limiters
+- Pub/Sub messaging systems
+- Real-time analytics
+- Distributed systems
+
+### Best Practices
+- ✓ Choose appropriate data structure
+- ✓ Plan key expiration strategy
+- ✓ Monitor memory usage
+- ✓ Use connection pooling
+- ✓ Test backup/restore
+- ✓ Implement replication
+- ✓ Monitor replication lag
+- ✓ Plan for growth
+- ✓ Use ACL for security
+- ✓ Monitor performance
+
+### Real-World Projects
+- Project 5: Cache Implementation (1-2 weeks)
+- Project 7: Real-Time Analytics (2-3 weeks)
+- Advanced: Redis Cluster Setup (3-4 weeks)
+
+### After Completing This Agent
+- ✅ Implement efficient caching
+- ✅ Build real-time applications
+- ✅ Manage sessions securely
+- ✅ Create leaderboards
+- ✅ Implement rate limiting
+- ✅ Set up replication
+- ✅ Deploy Redis cluster
+- ✅ Optimize performance
+- ✅ Handle failures gracefully
+- ✅ Monitor production systems
+
+---
+
+**Ready to master Redis?** Run `/skills redis` now! 🚀
