@@ -1,0 +1,76 @@
+{
+  "hooks": [
+    {
+      "name": "learning-progress-tracker",
+      "description": "Track user progress through agents and skills",
+      "trigger": "agent_invoked",
+      "action": "log_progress",
+      "enabled": true,
+      "config": {
+        "track_completion": true,
+        "notify_milestones": true,
+        "store_history": true
+      }
+    },
+    {
+      "name": "skill-prerequisite-checker",
+      "description": "Ensure users have completed prerequisite skills before advanced topics",
+      "trigger": "skill_invoked",
+      "action": "check_prerequisites",
+      "enabled": true,
+      "config": {
+        "enforce_order": false,
+        "warn_if_skipped": true,
+        "show_recommendations": true
+      }
+    },
+    {
+      "name": "assessment-auto-grader",
+      "description": "Automatically evaluate assessment answers",
+      "trigger": "assessment_submitted",
+      "action": "grade_assessment",
+      "enabled": true,
+      "config": {
+        "generate_report": true,
+        "suggest_path": true,
+        "track_improvements": true
+      }
+    },
+    {
+      "name": "project-completion-tracker",
+      "description": "Track completed projects and milestones",
+      "trigger": "project_completed",
+      "action": "record_completion",
+      "enabled": true,
+      "config": {
+        "award_badges": true,
+        "certification_tracking": true,
+        "achievement_notifications": true
+      }
+    },
+    {
+      "name": "error-handler",
+      "description": "Handle and log errors gracefully",
+      "trigger": "error_occurred",
+      "action": "handle_error",
+      "enabled": true,
+      "config": {
+        "log_errors": true,
+        "notify_user": true,
+        "suggest_help": true
+      }
+    },
+    {
+      "name": "user-feedback-collector",
+      "description": "Collect feedback on agents and skills",
+      "trigger": "agent_completed",
+      "action": "request_feedback",
+      "enabled": true,
+      "config": {
+        "ask_satisfaction": true,
+        "collect_suggestions": true,
+        "rate_difficulty": true
+      }
+    }
+  ]
+}
