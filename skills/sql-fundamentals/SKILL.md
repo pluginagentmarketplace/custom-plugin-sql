@@ -194,6 +194,226 @@ SELECT first_name, hire_date,
 FROM employees;
 ```
 
+## Subqueries & Nested Queries
+
+```sql
+-- Subquery in WHERE clause
+SELECT first_name, salary
+FROM employees
+WHERE salary > (SELECT AVG(salary) FROM employees);
+
+-- Subquery in FROM clause
+SELECT dept, avg_salary
+FROM (
+  SELECT department_id as dept, AVG(salary) as avg_salary
+  FROM employees
+  GROUP BY department_id
+) dept_averages
+WHERE avg_salary > 70000;
+
+-- Subquery with IN
+SELECT first_name, department_id
+FROM employees
+WHERE department_id IN (
+  SELECT id FROM departments
+  WHERE location = 'New York'
+);
+
+-- EXISTS clause
+SELECT d.department_name
+FROM departments d
+WHERE EXISTS (
+  SELECT 1 FROM employees e
+  WHERE e.department_id = d.id
+  AND e.salary > 100000
+);
+```
+
+## CASE Statements
+
+```sql
+-- Simple CASE
+SELECT first_name, salary,
+  CASE
+    WHEN salary < 50000 THEN 'Junior'
+    WHEN salary < 80000 THEN 'Mid-Level'
+    WHEN salary < 120000 THEN 'Senior'
+    ELSE 'Executive'
+  END as level
+FROM employees;
+
+-- Multiple conditions
+SELECT first_name, salary, years_employed,
+  CASE
+    WHEN years_employed >= 10 AND salary > 100000 THEN 'Senior Executive'
+    WHEN years_employed >= 5 AND salary > 75000 THEN 'Senior Staff'
+    WHEN salary > 60000 THEN 'Mid-Level'
+    ELSE 'Junior'
+  END as category
+FROM employees;
+
+-- CASE with aggregation
+SELECT department_id,
+  COUNT(CASE WHEN salary > 80000 THEN 1 END) as high_earners,
+  COUNT(CASE WHEN salary <= 80000 THEN 1 END) as low_earners
+FROM employees
+GROUP BY department_id;
+```
+
+## NULL Handling
+
+```sql
+-- COALESCE - return first non-null value
+SELECT first_name,
+  COALESCE(phone, 'No Phone', 'Unknown') as contact
+FROM employees;
+
+-- NULLIF - return NULL if equal
+SELECT first_name,
+  NULLIF(salary, 0) as salary
+FROM employees;
+
+-- IFNULL / ISNULL
+SELECT first_name,
+  IFNULL(bonus, 0) as bonus_amount
+FROM employees;
+
+-- ISNULL in WHERE clause
+SELECT first_name FROM employees
+WHERE phone IS NULL;
+```
+
+## Distinct & Duplicates
+
+```sql
+-- DISTINCT
+SELECT DISTINCT department_id FROM employees;
+
+-- COUNT DISTINCT
+SELECT COUNT(DISTINCT department_id) as unique_departments
+FROM employees;
+
+-- Find duplicates
+SELECT email, COUNT(*) as count
+FROM employees
+GROUP BY email
+HAVING COUNT(*) > 1;
+```
+
+## Union & Set Operations
+
+```sql
+-- UNION (removes duplicates)
+SELECT first_name FROM employees WHERE salary > 100000
+UNION
+SELECT first_name FROM contractors WHERE hourly_rate > 100;
+
+-- UNION ALL (keeps duplicates)
+SELECT first_name FROM employees
+UNION ALL
+SELECT first_name FROM contractors;
+
+-- INTERSECT (common records)
+SELECT department_id FROM employees
+INTERSECT
+SELECT department_id FROM projects;
+
+-- EXCEPT (in first but not second)
+SELECT employee_id FROM employees
+EXCEPT
+SELECT employee_id FROM time_off;
+```
+
+## Window Functions (Introduction)
+
+```sql
+-- ROW_NUMBER
+SELECT first_name, salary,
+  ROW_NUMBER() OVER (ORDER BY salary DESC) as rank
+FROM employees;
+
+-- RANK with partitioning
+SELECT first_name, department_id, salary,
+  RANK() OVER (PARTITION BY department_id ORDER BY salary DESC) as dept_rank
+FROM employees;
+
+-- Running total
+SELECT first_name, salary,
+  SUM(salary) OVER (ORDER BY id) as running_total
+FROM employees;
+
+-- LAG and LEAD
+SELECT first_name, salary,
+  LAG(salary) OVER (ORDER BY id) as prev_salary,
+  LEAD(salary) OVER (ORDER BY id) as next_salary
+FROM employees;
+```
+
+## Common SQL Patterns
+
+### Employee Salaries Problem
+```sql
+-- Find employees earning more than their manager
+SELECT e.first_name, e.salary
+FROM employees e
+LEFT JOIN employees m ON e.manager_id = m.id
+WHERE e.salary > m.salary;
+
+-- Top earner per department
+SELECT department_id, first_name, salary
+FROM (
+  SELECT department_id, first_name, salary,
+    ROW_NUMBER() OVER (PARTITION BY department_id ORDER BY salary DESC) as rn
+  FROM employees
+) ranked
+WHERE rn = 1;
+```
+
+### Sales & Orders
+```sql
+-- Monthly sales totals
+SELECT DATE_TRUNC('month', order_date) as month,
+  SUM(total_amount) as monthly_total
+FROM orders
+GROUP BY DATE_TRUNC('month', order_date)
+ORDER BY month;
+
+-- Customer lifetime value
+SELECT customer_id, COUNT(order_id) as num_orders,
+  SUM(total_amount) as lifetime_value
+FROM orders
+GROUP BY customer_id
+ORDER BY lifetime_value DESC;
+
+-- Products never ordered
+SELECT product_id, product_name
+FROM products
+WHERE product_id NOT IN (
+  SELECT DISTINCT product_id FROM order_items
+);
+```
+
+## Performance Tips
+
+```sql
+-- Use indexes on frequently filtered columns
+CREATE INDEX idx_employee_dept ON employees(department_id);
+CREATE INDEX idx_order_date ON orders(order_date);
+
+-- Avoid SELECT * - specify columns
+SELECT id, first_name, last_name FROM employees;  -- Better
+SELECT * FROM employees;  -- Avoid
+
+-- Filter early - put conditions before joins
+SELECT *
+FROM employees e
+WHERE e.department_id = 1
+INNER JOIN departments d ON e.department_id = d.id;
+
+-- Use LIMIT when you only need a sample
+SELECT * FROM large_table LIMIT 100;
+```
+
 ## Next Steps
 
-Learn Advanced SQL including complex joins, subqueries, CTEs, and window functions in the `advanced-sql` skill.
+Learn Advanced SQL including CTEs, complex window functions, and query optimization in the `advanced-sql` skill.
