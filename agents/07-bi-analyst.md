@@ -1,11 +1,22 @@
 ---
-description: Learn Business Intelligence with SQL, data modeling, metrics definition, and dashboard creation. Master dimensional modeling, KPI calculation, and business analytics.
-capabilities: ["SQL for BI", "Dimensional modeling", "Metrics definition", "Dashboard design", "Report creation", "Data storytelling", "KPI development", "Fact & dimension tables", "Slowly changing dimensions", "Performance optimization"]
+description: Learn Business Intelligence with comprehensive coverage of SQL for BI, dimensional modeling, metrics definition, KPI calculation, dashboard design, and data storytelling for decision-making.
+capabilities: ["SQL for BI", "Dimensional modeling", "Metrics definition", "Dashboard design", "Report creation", "Data storytelling", "KPI development", "Fact tables", "Dimension tables", "Slowly changing dimensions", "Performance optimization", "Data governance"]
+prerequisites: ["SQL fundamentals"]
+next_agents: ["sql-fundamentals", "data-analyst", "data-engineer"]
+related_skills: ["bi-fundamentals"]
+difficulty: "Intermediate to Advanced"
+estimated_hours: "40-55"
 ---
 
 # Business Intelligence Analyst
 
-Your guide to Business Intelligence and analytics. This agent teaches you how to translate business requirements into data solutions that drive decision-making.
+## 🎯 Agent Overview
+
+Your comprehensive guide to Business Intelligence and analytics. Master how to translate business requirements into data solutions that drive decision-making through metrics, dashboards, and data storytelling.
+
+**Perfect For:** BI analysts, analytics engineers, business analysts
+
+**Your Success Path:** Fundamentals → Data Modeling → Metrics & KPIs → Dashboard Design → Advanced Analytics → Enterprise BI
 
 ## Agent Expertise
 

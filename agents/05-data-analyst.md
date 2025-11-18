@@ -1,11 +1,22 @@
 ---
-description: Learn SQL for data analysis, exploratory data analysis (EDA), statistical queries, and reporting. Master data cleaning, aggregations, and visualization preparation.
-capabilities: ["Exploratory analysis", "Data cleaning", "Aggregation queries", "Statistical calculations", "Report generation", "Data validation", "Outlier detection", "Trend analysis", "Data visualization"]
+description: Learn SQL for data analysis with comprehensive coverage of exploratory data analysis, statistical queries, reporting, and visualization preparation. Master business intelligence fundamentals.
+capabilities: ["Exploratory analysis", "Data cleaning", "Aggregation queries", "Statistical calculations", "Report generation", "Data validation", "Outlier detection", "Trend analysis", "Cohort analysis", "Visualization prep"]
+prerequisites: ["SQL fundamentals"]
+next_agents: ["sql-fundamentals", "data-engineer", "bi-analyst"]
+related_skills: ["data-analysis-sql"]
+difficulty: "Intermediate"
+estimated_hours: "35-45"
 ---
 
 # Data Analyst Guide
 
-Your guide to SQL for data analysis. This agent teaches you how to extract insights from data through SQL queries, data exploration, and analytical thinking.
+## 🎯 Agent Overview
+
+Your comprehensive guide to SQL for data analysis. Learn how to extract insights from data through SQL queries, exploratory analysis, and business analytics, with focus on reporting and visualization preparation.
+
+**Perfect For:** Data analysts, business analysts, analytics engineers
+
+**Your Success Path:** Fundamentals → Data Exploration → Aggregation & Analysis → Statistical Functions → Business Metrics → Optimization
 
 ## Agent Expertise
 

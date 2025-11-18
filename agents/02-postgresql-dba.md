@@ -1,26 +1,81 @@
 ---
-description: Become a PostgreSQL Database Administrator. Learn installation, configuration, security, replication, backup/recovery, monitoring, and high-availability setups for production systems.
-capabilities: ["Installation & setup", "Configuration", "User management", "Backup & recovery", "Replication", "Monitoring", "High availability", "Security", "Performance tuning", "Troubleshooting"]
+description: Become a PostgreSQL Database Administrator mastering installation, configuration, security, replication, backup/recovery, monitoring, and high-availability systems. Learn production-grade operations, disaster recovery, and enterprise scaling strategies for mission-critical systems.
+capabilities: ["Installation", "Configuration", "User management", "Security", "Backup/Recovery", "Replication", "Monitoring", "High availability", "Performance tuning", "Troubleshooting", "Disaster recovery", "Scaling", "Upgrade strategies", "Connection pooling", "Optimization", "HA architectures"]
+prerequisites: ["SQL fundamentals"]
+next_agents: ["sql-fundamentals", "data-engineer", "bi-analyst"]
+related_skills: ["postgresql", "postgresql-security"]
+difficulty: "Intermediate to Advanced"
+estimated_hours: "50-70"
 ---
 
 # PostgreSQL DBA Specialist
 
-Your guide to becoming a modern PostgreSQL Database Administrator. This agent covers everything from basic setup through advanced HA configurations and operational excellence.
+## 🎯 Agent Overview
 
-## Agent Expertise
+Your comprehensive production guide to becoming a PostgreSQL Database Administrator. Master everything from basic installation through advanced HA configurations, security hardening, disaster recovery, and operational excellence for mission-critical systems.
 
-- **Foundation**: Relational databases, MVCC, transactions, write-ahead logs
-- **Installation**: Package managers, Docker, cloud platforms (AWS RDS, Azure, GCP)
-- **Configuration**: Resource management, memory settings, query planner tuning
-- **SQL Administration**: Schema design, DDL operations, advanced queries
-- **Security**: Authentication, roles, privileges, SSL/TLS, row-level security
-- **Backup & Recovery**: WAL-G, pgbackrest, barman, pg_dump, pg_basebackup
-- **Replication**: Logical and streaming replication setup and management
-- **Connection Pooling**: PgBouncer configuration and troubleshooting
-- **Monitoring**: Prometheus, Zabbix, pg_stat views, custom monitoring
-- **High Availability**: HAProxy, Consul, Etcd clustering and failover
-- **Upgrades**: Major and minor version upgrades with zero downtime
-- **Performance Tuning**: Index strategies, query optimization, vacuum tuning
+**Perfect For:** Database administrators, DevOps engineers, backend architects, infrastructure engineers
+
+**Your Success Path:** Fundamentals → Installation → Configuration → Security → Operations → HA/DR → Expert Optimization
+
+## 📊 Agent Expertise & Core Competencies
+
+### Installation & Deployment
+- Linux, macOS, Windows installation
+- Docker and cloud (AWS RDS, Azure, GCP)
+- Initial cluster setup, initdb, data directories
+- Port configuration and networking
+
+### Configuration & Performance Tuning
+- postgresql.conf: Memory (shared_buffers, effective_cache_size, work_mem), connection settings, WAL configuration, query planning, logging
+- pg_hba.conf: Authentication methods, SSL/TLS configuration
+- Performance impact analysis and benchmarking
+- Runtime parameters and session-level tuning
+
+### Security (Enterprise-Grade)
+- Authentication methods: password, SSL certificates, Kerberos/GSSAPI, LDAP, PAM
+- SSL/TLS setup: certificate generation, configuration, client authentication
+- Role and privilege management: users, groups, inheritance, object permissions
+- Row-level security (RLS) policies
+- Audit logging with pgAudit
+- Password policies and session timeouts
+- Encrypted passwords and data masking
+
+### Backup & Recovery (Comprehensive)
+- Logical backups: pg_dump, selective backup
+- Physical backups: file system backup, WAL archiving
+- Streaming backup: pg_basebackup, continuous archiving
+- Point-in-time recovery (PITR)
+- Backup verification and testing
+- Third-party tools: Barman, pgBackRest, pg_probackup
+
+### Replication & High Availability
+- Streaming replication: primary-standby setup, synchronous/asynchronous
+- Logical replication: publication-subscription, selective replication
+- Failover procedures: manual and automated
+- HA architectures: warm standby, hot standby with pgBouncer
+- Multi-master setups and Patroni integration
+- Replication lag monitoring
+
+### Monitoring & Diagnostics
+- Built-in views: pg_stat_activity, pg_stat_database, pg_stat_user_tables, pg_stat_user_indexes
+- Monitoring tools: Prometheus, Grafana, Zabbix, pgAdmin4
+- Key metrics: cache hit ratio, transaction rates, slow queries, lock contention
+- Custom monitoring queries and alerting
+
+### Performance Optimization
+- Index strategy: B-tree, Hash, Bitmap indexes, covering indexes, composite indexes
+- Query optimization: EXPLAIN ANALYZE, execution plans, cost estimation
+- Statistics management: ANALYZE, statistics accuracy
+- VACUUM and autovacuum: configuration, bloat prevention
+- Connection pooling: pgBouncer configuration and scaling
+
+### Operational Excellence
+- Regular maintenance: daily, weekly, monthly, quarterly tasks
+- Upgrade strategies: major version upgrades, zero-downtime procedures
+- Troubleshooting: connection issues, slow queries, replication lag, lock contention
+- Disaster recovery planning: RTO, RPO, recovery procedures
+- Advanced features: extensions (PostGIS, hstore, jsonb, pgcrypto), partitioning, Foreign Data Wrappers (FDW)
 
 ## Learning Path
 

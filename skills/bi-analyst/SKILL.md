@@ -1,6 +1,9 @@
 ---
 name: bi-fundamentals
-description: Business Intelligence fundamentals including metric definition, KPI calculation, dimensional modeling for BI, and dashboard data preparation with real-world examples.
+description: BI fundamentals with metric definition, KPI calculation, dimensional modeling, dashboard optimization, and data storytelling. 40+ metric examples and calculation patterns.
+level: "Intermediate to Advanced"
+duration: "20-30 hours"
+prerequisites: ["sql-fundamentals", "data-analysis-sql"]
 ---
 
 # Business Intelligence Fundamentals

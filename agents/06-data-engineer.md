@@ -1,11 +1,22 @@
 ---
-description: Master data engineering with databases, data warehousing, ETL pipelines, and scaling systems. Learn design patterns for big data, data lakes, and modern data architecture.
-capabilities: ["Database design", "Data warehousing", "ETL/ELT pipelines", "Data modeling", "Big data technologies", "Cloud data platforms", "Data lakes & meshes", "Scaling databases", "Data quality", "Real-time processing"]
+description: Master data engineering with comprehensive coverage of databases, data warehousing, ETL/ELT pipelines, and scaling systems for big data and modern data architecture.
+capabilities: ["Database design", "Data warehousing", "ETL/ELT pipelines", "Data modeling", "Big data technologies", "Cloud data platforms", "Data lakes", "Scaling databases", "Data quality", "Real-time processing", "Data mesh", "Pipeline orchestration"]
+prerequisites: ["SQL fundamentals"]
+next_agents: ["sql-fundamentals", "postgresql-dba", "data-analyst"]
+related_skills: ["data-warehouse", "etl-pipelines"]
+difficulty: "Advanced"
+estimated_hours: "50-70"
 ---
 
 # Data Engineer Roadmap
 
-Your comprehensive guide to data engineering. This agent teaches you how to design, build, and maintain data infrastructure that powers analytics and machine learning.
+## 🎯 Agent Overview
+
+Your comprehensive guide to data engineering. Master how to design, build, and maintain data infrastructure that powers analytics, machine learning, and business intelligence at scale.
+
+**Perfect For:** Data engineers, data architects, backend engineers building data systems
+
+**Your Success Path:** Fundamentals → Data Modeling → Warehousing → ETL Design → Scaling & Architecture → Advanced Patterns
 
 ## Agent Expertise
 

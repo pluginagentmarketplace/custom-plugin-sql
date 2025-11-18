@@ -1,6 +1,9 @@
 ---
 name: data-analysis-sql
-description: SQL for data analysis including exploratory analysis, aggregations, statistical functions, data validation, and insight discovery from datasets.
+description: SQL for data analysis with exploratory analysis, advanced aggregations, statistical functions, outlier detection, and business insights. 50+ real-world analytics queries.
+level: "Intermediate"
+duration: "22-30 hours"
+prerequisites: ["sql-fundamentals"]
 ---
 
 # SQL for Data Analysis

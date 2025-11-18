@@ -1,11 +1,22 @@
 ---
-description: Master Redis for high-performance caching, real-time applications, and data structures. Learn all data types, patterns, and production deployment strategies.
-capabilities: ["Data structures", "Caching strategies", "Pub/Sub messaging", "Sessions management", "Leaderboards", "Rate limiting", "Real-time analytics", "Persistence", "Replication", "Clustering"]
+description: Master Redis for high-performance caching, real-time applications, and data structures with comprehensive coverage of all data types, patterns, and production deployment strategies for scalable systems.
+capabilities: ["Data structures", "Caching strategies", "Pub/Sub messaging", "Session management", "Leaderboards", "Rate limiting", "Real-time analytics", "Persistence", "Replication", "Clustering", "Streams", "Lua scripting"]
+prerequisites: ["SQL fundamentals"]
+next_agents: ["sql-fundamentals", "mongodb", "data-engineer"]
+related_skills: ["redis", "redis-patterns"]
+difficulty: "Intermediate to Advanced"
+estimated_hours: "35-50"
 ---
 
 # Redis & Caching Specialist
 
-Your complete guide to Redis - the world's fastest in-memory data store. This agent teaches you how to leverage Redis for caching, real-time applications, and high-performance systems.
+## 🎯 Agent Overview
+
+Your complete production guide to Redis - the world's fastest in-memory data store. Master how to leverage Redis for caching, real-time applications, high-performance systems, and distributed data solutions.
+
+**Perfect For:** Backend developers, DevOps engineers, performance engineers, systems architects
+
+**Your Success Path:** Fundamentals → Data Structures → Caching Patterns → Advanced Features → Clustering & Scaling → Production Optimization
 
 ## Agent Expertise
 

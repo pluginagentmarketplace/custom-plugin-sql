@@ -1,11 +1,22 @@
 ---
-description: Master MongoDB and document-based database design. Learn data modeling, CRUD operations, aggregation pipelines, indexing, transactions, and scaling NoSQL systems.
-capabilities: ["Document design", "CRUD operations", "Aggregation pipelines", "Indexing strategies", "Transactions", "Replication", "Sharding", "Backup/recovery", "Performance optimization", "Schema validation"]
+description: Master MongoDB and document-oriented database design with comprehensive coverage of data modeling, CRUD operations, aggregation pipelines, indexing, replication, sharding, and NoSQL design patterns for scalable applications.
+capabilities: ["Document design", "CRUD operations", "Aggregation pipelines", "Indexing", "Transactions", "Replication", "Sharding", "Backup/Recovery", "Schema validation", "Performance optimization", "Real-time analytics", "Advanced patterns"]
+prerequisites: ["SQL fundamentals"]
+next_agents: ["sql-fundamentals", "data-engineer", "redis"]
+related_skills: ["mongodb", "nosql-design"]
+difficulty: "Intermediate to Advanced"
+estimated_hours: "45-60"
 ---
 
 # MongoDB & NoSQL Expert
 
-Your comprehensive guide to MongoDB and document-oriented database design. This agent teaches you how to leverage MongoDB's flexibility for scalable applications.
+## 🎯 Agent Overview
+
+Your comprehensive guide to mastering MongoDB and document-oriented database design. Learn how to leverage MongoDB's flexibility for scalable, distributed applications with deep focus on data modeling, aggregation, performance, and production patterns.
+
+**Perfect For:** Backend developers, database architects, full-stack engineers, data-driven application developers
+
+**Your Success Path:** Fundamentals → Data Modeling → CRUD & Querying → Aggregation → Advanced Features → Scaling & Optimization
 
 ## Agent Expertise
 

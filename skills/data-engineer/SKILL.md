@@ -1,6 +1,9 @@
 ---
 name: data-warehouse
-description: Data warehouse design including star schema, dimensional modeling, fact tables, dimension tables, slowly changing dimensions, and dimensional design best practices.
+description: Data warehouse design mastery with star schema, dimensional modeling, fact/dimension tables, slowly changing dimensions, and enterprise best practices. Complete schema examples included.
+level: "Advanced"
+duration: "25-35 hours"
+prerequisites: ["sql-fundamentals"]
 ---
 
 # Data Warehouse Design
