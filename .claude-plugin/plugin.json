@@ -1,0 +1,173 @@
+{
+  "name": "custom-plugin-sql",
+  "version": "1.0.0",
+  "title": "SQL & Database Mastery",
+  "description": "Comprehensive SQL and database learning system with 7 specialized agents covering SQL fundamentals, PostgreSQL, MongoDB, Redis, Data Analysis, Data Engineering, and BI - designed for complete database mastery",
+  "author": "Claude Code Plugin Development",
+  "license": "MIT",
+  "keywords": [
+    "SQL",
+    "Database",
+    "PostgreSQL",
+    "MongoDB",
+    "Redis",
+    "Data Analysis",
+    "Data Engineering",
+    "Business Intelligence",
+    "Database Design",
+    "Query Optimization",
+    "Learning Path",
+    "Interactive"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pluginagentmarketplace/custom-plugin-sql"
+  },
+  "agents": [
+    {
+      "id": "sql-fundamentals",
+      "name": "SQL Fundamentals Expert",
+      "description": "Master SQL basics, DDL, DML, joins, subqueries, and optimization",
+      "file": "agents/01-sql-fundamentals.md"
+    },
+    {
+      "id": "postgresql-dba",
+      "name": "PostgreSQL DBA Specialist",
+      "description": "Learn PostgreSQL administration, configuration, replication, and high availability",
+      "file": "agents/02-postgresql-dba.md"
+    },
+    {
+      "id": "mongodb",
+      "name": "MongoDB & NoSQL Expert",
+      "description": "Master MongoDB, document models, aggregation, and NoSQL design patterns",
+      "file": "agents/03-mongodb.md"
+    },
+    {
+      "id": "redis",
+      "name": "Redis & Caching Specialist",
+      "description": "Learn Redis data structures, caching strategies, and real-time applications",
+      "file": "agents/04-redis.md"
+    },
+    {
+      "id": "data-analyst",
+      "name": "Data Analyst Guide",
+      "description": "SQL for analytics, data exploration, reporting, and business intelligence fundamentals",
+      "file": "agents/05-data-analyst.md"
+    },
+    {
+      "id": "data-engineer",
+      "name": "Data Engineer Roadmap",
+      "description": "Database design for big data, data warehousing, ETL, and scaling systems",
+      "file": "agents/06-data-engineer.md"
+    },
+    {
+      "id": "bi-analyst",
+      "name": "Business Intelligence Analyst",
+      "description": "SQL for BI, data modeling, metrics, dashboards, and business analytics",
+      "file": "agents/07-bi-analyst.md"
+    }
+  ],
+  "commands": [
+    {
+      "name": "learn",
+      "description": "Start SQL & Database learning path",
+      "file": "commands/learn.md"
+    },
+    {
+      "name": "browse-agent",
+      "description": "Explore all 7 database agents",
+      "file": "commands/browse-agent.md"
+    },
+    {
+      "name": "assess",
+      "description": "Evaluate your database knowledge",
+      "file": "commands/assess.md"
+    },
+    {
+      "name": "projects",
+      "description": "Browse hands-on database projects",
+      "file": "commands/projects.md"
+    }
+  ],
+  "skills": [
+    {
+      "id": "sql-fundamentals",
+      "name": "SQL Fundamentals",
+      "description": "SQL syntax, DDL, DML, and query basics",
+      "file": "skills/sql-fundamentals/SKILL.md"
+    },
+    {
+      "id": "sql-advanced",
+      "name": "Advanced SQL",
+      "description": "Joins, subqueries, CTEs, window functions, and optimization",
+      "file": "skills/sql-fundamentals/advanced-sql.md"
+    },
+    {
+      "id": "postgresql",
+      "name": "PostgreSQL Administration",
+      "description": "PostgreSQL setup, configuration, backup, and replication",
+      "file": "skills/postgresql-dba/SKILL.md"
+    },
+    {
+      "id": "postgresql-security",
+      "name": "PostgreSQL Security",
+      "description": "Authentication, roles, privileges, and security best practices",
+      "file": "skills/postgresql-dba/security.md"
+    },
+    {
+      "id": "mongodb",
+      "name": "MongoDB Mastery",
+      "description": "Document models, CRUD, aggregation, and indexing",
+      "file": "skills/mongodb/SKILL.md"
+    },
+    {
+      "id": "nosql-design",
+      "name": "NoSQL Design Patterns",
+      "description": "Denormalization, embedding, references, and schema design",
+      "file": "skills/mongodb/design-patterns.md"
+    },
+    {
+      "id": "redis",
+      "name": "Redis Data Structures",
+      "description": "Strings, lists, hashes, sets, sorted sets, and advanced features",
+      "file": "skills/redis/SKILL.md"
+    },
+    {
+      "id": "redis-patterns",
+      "name": "Redis Patterns & Use Cases",
+      "description": "Caching, sessions, rate limiting, real-time applications",
+      "file": "skills/redis/patterns.md"
+    },
+    {
+      "id": "data-analysis-sql",
+      "name": "SQL for Data Analysis",
+      "description": "Exploratory analysis, aggregations, and statistical queries",
+      "file": "skills/data-analyst/SKILL.md"
+    },
+    {
+      "id": "bi-fundamentals",
+      "name": "BI Fundamentals",
+      "description": "Metrics, dimensions, fact tables, and reporting architecture",
+      "file": "skills/bi-analyst/SKILL.md"
+    },
+    {
+      "id": "data-warehouse",
+      "name": "Data Warehouse Design",
+      "description": "Star schema, dimensional modeling, and warehouse architecture",
+      "file": "skills/data-engineer/SKILL.md"
+    },
+    {
+      "id": "etl-pipelines",
+      "name": "ETL & Data Pipelines",
+      "description": "Extract, transform, load, and data pipeline design patterns",
+      "file": "skills/data-engineer/etl-pipelines.md"
+    }
+  ],
+  "hooks": {
+    "file": "hooks/hooks.json"
+  },
+  "homepage": "https://github.com/pluginagentmarketplace/custom-plugin-sql",
+  "documentation": "https://github.com/pluginagentmarketplace/custom-plugin-sql/blob/main/README.md",
+  "category": "learning",
+  "tags": ["database", "sql", "learning", "agent", "skills"]
+}
