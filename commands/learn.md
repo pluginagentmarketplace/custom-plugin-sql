@@ -1,3 +1,9 @@
+---
+name: learn
+description: Learn SQL & Database Mastery
+allowed-tools: Read
+---
+
 # Learn SQL & Database Mastery
 
 Welcome to the SQL & Database Mastery plugin! This command helps you choose your learning path based on your role and experience level.

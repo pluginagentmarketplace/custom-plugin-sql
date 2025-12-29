@@ -4,7 +4,7 @@
   "title": "SQL & Database Mastery",
   "description": "Comprehensive SQL and database learning system with 7 specialized agents covering SQL fundamentals, PostgreSQL, MongoDB, Redis, Data Analysis, Data Engineering, and BI - designed for complete database mastery",
   "author": "Claude Code Plugin Development",
-  "license": "MIT",
+  "license": "SEE LICENSE IN LICENSE",
   "keywords": [
     "SQL",
     "Database",
@@ -169,5 +169,11 @@
   "homepage": "https://github.com/pluginagentmarketplace/custom-plugin-sql",
   "documentation": "https://github.com/pluginagentmarketplace/custom-plugin-sql/blob/main/README.md",
   "category": "learning",
-  "tags": ["database", "sql", "learning", "agent", "skills"]
+  "tags": [
+    "database",
+    "sql",
+    "learning",
+    "agent",
+    "skills"
+  ]
 }

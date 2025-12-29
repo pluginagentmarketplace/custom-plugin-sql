@@ -1,3 +1,9 @@
+---
+name: projects
+description: Hands-On Projects
+allowed-tools: Read
+---
+
 # Hands-On Projects
 
 Build real-world experience with these database and SQL projects. Choose by difficulty and your learning path.

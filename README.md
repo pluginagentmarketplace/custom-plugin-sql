@@ -1,170 +1,262 @@
-# 🗄️ SQL & Database Mastery Plugin
+<div align="center">
 
-A comprehensive Claude Code plugin for learning SQL, databases, and data engineering with 7 specialized agents, 12+ interactive skills, and 18+ hands-on projects.
+<!-- Animated Typing Banner -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Sql+Assistant;7+Agents+%7C+7+Skills;Claude+Code+Plugin" alt="Sql Assistant" />
 
-## 🎯 Overview
+<br/>
 
-This plugin provides everything you need to master SQL and databases, from complete beginners to advanced professionals. Learn through interactive agents, detailed skill guides, and real-world projects.
+<!-- Badge Row 1: Status Badges -->
+[![Version](https://img.shields.io/badge/Version-1.0.0-blue?style=for-the-badge)](https://github.com/pluginagentmarketplace/custom-plugin-sql/releases)
+[![License](https://img.shields.io/badge/License-Custom-yellow?style=for-the-badge)](LICENSE)
+[![Status](https://img.shields.io/badge/Status-Production-brightgreen?style=for-the-badge)](#)
+[![SASMP](https://img.shields.io/badge/SASMP-v1.3.0-blueviolet?style=for-the-badge)](#)
 
-### 📊 What's Included
+<!-- Badge Row 2: Content Badges -->
+[![Agents](https://img.shields.io/badge/Agents-7-orange?style=flat-square&logo=robot)](#-agents)
+[![Skills](https://img.shields.io/badge/Skills-7-purple?style=flat-square&logo=lightning)](#-skills)
+[![Commands](https://img.shields.io/badge/Commands-4-green?style=flat-square&logo=terminal)](#-commands)
 
-| Component | Count | Details |
-|-----------|-------|---------|
-| **Agents** | 7 | Specialized learning paths for different roles |
-| **Skills** | 12+ | Detailed, practical skill guides with examples |
-| **Commands** | 4 | `/learn`, `/browse-agent`, `/assess`, `/projects` |
-| **Projects** | 18+ | Hands-on projects from beginner to advanced |
-| **Learning Hours** | 200+ | Comprehensive content covering all topics |
-| **Code Examples** | 500+ | Real SQL, Python, JavaScript examples |
+<br/>
+
+<!-- Quick CTA Row -->
+[📦 **Install Now**](#-quick-start) · [🤖 **Explore Agents**](#-agents) · [📖 **Documentation**](#-documentation) · [⭐ **Star this repo**](https://github.com/pluginagentmarketplace/custom-plugin-sql)
+
+---
+
+### What is this?
+
+> **Sql Assistant** is a Claude Code plugin with **7 agents** and **7 skills** for sql development.
+
+</div>
+
+---
+
+## 📑 Table of Contents
+
+<details>
+<summary>Click to expand</summary>
+
+- [Quick Start](#-quick-start)
+- [Features](#-features)
+- [Agents](#-agents)
+- [Skills](#-skills)
+- [Commands](#-commands)
+- [Documentation](#-documentation)
+- [Contributing](#-contributing)
+- [License](#-license)
+
+</details>
+
+---
 
 ## 🚀 Quick Start
 
-### Installation
+### Prerequisites
+
+- Claude Code CLI v2.0.27+
+- Active Claude subscription
+
+### Installation (Choose One)
+
+<details open>
+<summary><strong>Option 1: From Marketplace (Recommended)</strong></summary>
 
 ```bash
-# Option 1: Load from local directory
-# In Claude Code settings, add: ./custom-plugin-sql
+# Step 1️⃣ Add the marketplace
+/plugin add marketplace pluginagentmarketplace/custom-plugin-sql
 
-# Option 2: Single command
-claude-code add ./custom-plugin-sql
+# Step 2️⃣ Install the plugin
+/plugin install custom-plugin-sql@pluginagentmarketplace-sql
+
+# Step 3️⃣ Restart Claude Code
+# Close and reopen your terminal/IDE
 ```
 
-### First Steps
+</details>
+
+<details>
+<summary><strong>Option 2: Local Installation</strong></summary>
 
 ```bash
-# Start with learning path recommendations
-/learn
+# Clone the repository
+git clone https://github.com/pluginagentmarketplace/custom-plugin-sql.git
+cd custom-plugin-sql
 
-# Browse all agents
-/browse-agent
+# Load locally
+/plugin load .
 
-# Take a skills assessment
-/assess
-
-# Explore hands-on projects
-/projects
+# Restart Claude Code
 ```
 
-## 📚 The 7 Agents
+</details>
 
-### 1. SQL Fundamentals Expert
-Master the foundations of SQL: SELECT, INSERT, UPDATE, DELETE, JOINs, subqueries, and optimization.
+### ✅ Verify Installation
 
-**Best for:** Beginners, anyone learning SQL
+After restart, you should see these agents:
 
-### 2. PostgreSQL DBA Specialist
-Production PostgreSQL administration: setup, security, backup/recovery, replication, and high availability.
-
-**Best for:** Database administrators, DevOps engineers
-
-### 3. MongoDB & NoSQL Expert
-Document-oriented database design with MongoDB: models, aggregation, indexing, and NoSQL patterns.
-
-**Best for:** Backend developers, database architects
-
-### 4. Redis & Caching Specialist
-In-memory data structures and high-performance caching: strings, lists, sets, sorted sets, and patterns.
-
-**Best for:** Performance engineers, real-time systems developers
-
-### 5. Data Analyst Guide
-SQL for data analysis: exploratory analysis, statistical functions, and business insights.
-
-**Best for:** Data analysts, business analysts
-
-### 6. Data Engineer Roadmap
-Data warehouse design, ETL pipelines, and scaling: star schema, dimensional modeling, big data.
-
-**Best for:** Data engineers, data architects
-
-### 7. Business Intelligence Analyst
-Metrics, KPIs, dimensional modeling, and dashboard creation: everything for BI success.
-
-**Best for:** BI analysts, analytics engineers
-
-## 🎓 Learning Paths
-
-### Backend Developer
-1. SQL Fundamentals → PostgreSQL DBA → Redis Specialist → Data Analysis SQL
-
-### Data Professional
-1. SQL Fundamentals → Data Analyst → Data Engineer → BI Analyst
-
-### Database Specialist
-1. SQL Fundamentals → PostgreSQL DBA → MongoDB Expert → Advanced Optimization
-
-### Full-Stack Data
-1. SQL Fundamentals → Data Analyst → Data Engineer → BI Analyst → Redis → PostgreSQL/MongoDB
-
-## 🎯 Skills
-
-- **SQL Fundamentals & Advanced SQL**: 20+ hours
-- **PostgreSQL Administration & Security**: 15+ hours
-- **MongoDB & NoSQL Patterns**: 15+ hours
-- **Redis Data Structures & Patterns**: 12+ hours
-- **Data Analysis SQL**: 15+ hours
-- **Data Warehouse Design & ETL**: 25+ hours
-- **BI Fundamentals**: 12+ hours
-
-**Total: 200+ hours of learning content with 500+ code examples**
-
-## 🛠️ Commands
-
-```bash
-/learn           # Get personalized learning path recommendations
-/browse-agent    # Explore all 7 agents and their capabilities
-/assess          # Evaluate your current skill level
-/projects        # View 18+ hands-on projects from beginner to advanced
+```
+custom-plugin-sql:05-data-analyst
+custom-plugin-sql:01-sql-fundamentals
+custom-plugin-sql:03-mongodb
+custom-plugin-sql:02-postgresql-dba
+custom-plugin-sql:04-redis
+... and 2 more
 ```
 
-## 📋 Projects (18+)
+---
 
-### Beginner (1-3 hours each)
-Movie Database, Employee Salaries, E-Commerce Queries, Blog Analytics, Cache Implementation
+## ✨ Features
 
-### Intermediate (4-8 hours each)
-Data Warehouse, Real-Time Analytics, MongoDB Modeling, ETL Pipeline, Performance Tuning, PostgreSQL HA, Analysis Report
+| Feature | Description |
+|---------|-------------|
+| 🤖 **7 Agents** | Specialized AI agents for sql tasks |
+| 🛠️ **7 Skills** | Reusable capabilities with Golden Format |
+| ⌨️ **4 Commands** | Quick slash commands |
+| 🔄 **SASMP v1.3.0** | Full protocol compliance |
 
-### Advanced (8+ hours each)
-MongoDB Cluster, Data Lake, BI Dashboard, Enterprise ETL, Real-Time Streaming, Complete Platform
+---
 
-## 🌟 Features
+## 🤖 Agents
 
-✅ **7 Specialized Agents** - Each focusing on different database roles
-✅ **12+ Skill Modules** - Detailed guides with 500+ code examples
-✅ **4 Slash Commands** - Easy navigation and learning path selection
-✅ **18+ Projects** - From beginner to advanced real-world scenarios
-✅ **Comprehensive Content** - 200+ hours of learning material
-✅ **Production-Ready** - Best practices and enterprise patterns
-✅ **Well-Structured** - Clear learning progression
-✅ **Modern & Practical** - Real SQL, Python, JavaScript examples
+### 7 Specialized Agents
 
-## 📦 Plugin Structure
+| # | Agent | Purpose |
+|---|-------|---------|
+| 1 | **05-data-analyst** | Learn SQL for data analysis with comprehensive coverage of e |
+| 2 | **01-sql-fundamentals** | Master SQL fundamentals including DDL, DML, joins, subquerie |
+| 3 | **03-mongodb** | Master MongoDB and document-oriented database design with co |
+| 4 | **02-postgresql-dba** | Become a PostgreSQL Database Administrator mastering install |
+| 5 | **04-redis** | Master Redis for high-performance caching, real-time applica |
+| 6 | **06-data-engineer** | Master data engineering with comprehensive coverage of datab |
+| 7 | **07-bi-analyst** | Learn Business Intelligence with comprehensive coverage of S |
+
+---
+
+## 🛠️ Skills
+
+### Available Skills
+
+| Skill | Description | Invoke |
+|-------|-------------|--------|
+| `sql-fundamentals` | Master SQL fundamentals including SELECT, INSERT, UPDATE, DE | `Skill("custom-plugin-sql:sql-fundamentals")` |
+| `redis` | Redis data structures and commands including strings, lists, | `Skill("custom-plugin-sql:redis")` |
+| `data-analyst` | SQL for data analysis with exploratory analysis, advanced ag | `Skill("custom-plugin-sql:data-analyst")` |
+| `bi-analyst` | BI fundamentals with metric definition, KPI calculation, dim | `Skill("custom-plugin-sql:bi-analyst")` |
+| `postgresql-dba` | PostgreSQL administration and setup including installation,  | `Skill("custom-plugin-sql:postgresql-dba")` |
+| `data-engineer` | Data warehouse design mastery with star schema, dimensional  | `Skill("custom-plugin-sql:data-engineer")` |
+| `mongodb` | MongoDB fundamentals including document model, CRUD operatio | `Skill("custom-plugin-sql:mongodb")` |
+
+---
+
+## ⌨️ Commands
+
+| Command | Description |
+|---------|-------------|
+| `/learn` | Learn SQL & Database Mastery |
+| `/assess` | Knowledge Assessment |
+| `/browse-agent` | Browse Database Agents |
+| `/projects` | Hands-On Projects |
+
+---
+
+## 📚 Documentation
+
+| Document | Description |
+|----------|-------------|
+| [CHANGELOG.md](CHANGELOG.md) | Version history |
+| [CONTRIBUTING.md](CONTRIBUTING.md) | How to contribute |
+| [LICENSE](LICENSE) | License information |
+
+---
+
+## 📁 Project Structure
+
+<details>
+<summary>Click to expand</summary>
 
 ```
 custom-plugin-sql/
-├── .claude-plugin/plugin.json
-├── agents/                    # 7 specialized agents
-├── commands/                  # 4 slash commands
-├── skills/                    # 12+ skill modules
-├── hooks/hooks.json          # Automation hooks
-└── README.md                 # This file
+├── 📁 .claude-plugin/
+│   ├── plugin.json
+│   └── marketplace.json
+├── 📁 agents/              # 7 agents
+├── 📁 skills/              # 7 skills (Golden Format)
+├── 📁 commands/            # 4 commands
+├── 📁 hooks/
+├── 📄 README.md
+├── 📄 CHANGELOG.md
+└── 📄 LICENSE
 ```
 
-## 🎯 Quick Links
+</details>
 
-- **Start Learning**: Run `/learn`
-- **Browse Agents**: Run `/browse-agent`
-- **Assess Skills**: Run `/assess`
-- **Find Projects**: Run `/projects`
+---
 
-## 🚀 Getting Started
+## 📅 Metadata
 
-1. Load the plugin in Claude Code
-2. Run `/learn` to get started
-3. Choose your learning path
-4. Work through agents and skills
-5. Build hands-on projects
-6. Earn certifications
+| Field | Value |
+|-------|-------|
+| **Version** | 1.0.0 |
+| **Last Updated** | 2025-12-29 |
+| **Status** | Production Ready |
+| **SASMP** | v1.3.0 |
+| **Agents** | 7 |
+| **Skills** | 7 |
+| **Commands** | 4 |
 
-**Ready? Let's master SQL and databases!** 🗄️
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read our [Contributing Guide](CONTRIBUTING.md).
+
+1. Fork the repository
+2. Create your feature branch
+3. Follow the Golden Format for new skills
+4. Submit a pull request
+
+---
+
+## ⚠️ Security
+
+> **Important:** This repository contains third-party code and dependencies.
+>
+> - ✅ Always review code before using in production
+> - ✅ Check dependencies for known vulnerabilities
+> - ✅ Follow security best practices
+> - ✅ Report security issues privately via [Issues](../../issues)
+
+---
+
+## 📝 License
+
+Copyright © 2025 **Dr. Umit Kacar** & **Muhsin Elcicek**
+
+Custom License - See [LICENSE](LICENSE) for details.
+
+---
+
+## 👥 Contributors
+
+<table>
+<tr>
+<td align="center">
+<strong>Dr. Umit Kacar</strong><br/>
+Senior AI Researcher & Engineer
+</td>
+<td align="center">
+<strong>Muhsin Elcicek</strong><br/>
+Senior Software Architect
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+**Made with ❤️ for the Claude Code Community**
+
+[![GitHub](https://img.shields.io/badge/GitHub-pluginagentmarketplace-black?style=for-the-badge&logo=github)](https://github.com/pluginagentmarketplace)
+
+</div>

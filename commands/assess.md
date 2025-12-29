@@ -1,3 +1,9 @@
+---
+name: assess
+description: Knowledge Assessment
+allowed-tools: Read
+---
+
 # Knowledge Assessment
 
 Evaluate your database and SQL skills across different areas.

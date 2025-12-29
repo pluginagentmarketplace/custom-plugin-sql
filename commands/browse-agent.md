@@ -1,3 +1,9 @@
+---
+name: browse-agent
+description: Browse Database Agents
+allowed-tools: Read
+---
+
 # Browse Database Agents
 
 Explore all 7 specialized agents in the SQL & Database Mastery plugin.
