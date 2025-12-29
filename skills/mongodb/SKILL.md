@@ -1,6 +1,9 @@
 ---
 name: mongodb
 description: MongoDB fundamentals including document model, CRUD operations, querying, indexing, and aggregation framework for NoSQL database applications.
+sasmp_version: "1.3.0"
+bonded_agent: 01-sql-fundamentals
+bond_type: PRIMARY_BOND
 ---
 
 # MongoDB Mastery

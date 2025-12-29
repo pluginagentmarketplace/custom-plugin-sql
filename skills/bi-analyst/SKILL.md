@@ -1,9 +1,9 @@
 ---
 name: bi-fundamentals
 description: BI fundamentals with metric definition, KPI calculation, dimensional modeling, dashboard optimization, and data storytelling. 40+ metric examples and calculation patterns.
-level: "Intermediate to Advanced"
-duration: "20-30 hours"
-prerequisites: ["sql-fundamentals", "data-analysis-sql"]
+sasmp_version: "1.3.0"
+bonded_agent: 01-sql-fundamentals
+bond_type: PRIMARY_BOND
 ---
 
 # Business Intelligence Fundamentals

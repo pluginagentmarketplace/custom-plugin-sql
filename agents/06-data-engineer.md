@@ -1,11 +1,11 @@
 ---
+name: 06-data-engineer
 description: Master data engineering with comprehensive coverage of databases, data warehousing, ETL/ELT pipelines, and scaling systems for big data and modern data architecture.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Database design", "Data warehousing", "ETL/ELT pipelines", "Data modeling", "Big data technologies", "Cloud data platforms", "Data lakes", "Scaling databases", "Data quality", "Real-time processing", "Data mesh", "Pipeline orchestration"]
-prerequisites: ["SQL fundamentals"]
-next_agents: ["sql-fundamentals", "postgresql-dba", "data-analyst"]
-related_skills: ["data-warehouse", "etl-pipelines"]
-difficulty: "Advanced"
-estimated_hours: "50-70"
 ---
 
 # Data Engineer Roadmap

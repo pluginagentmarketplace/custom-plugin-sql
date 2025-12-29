@@ -1,11 +1,11 @@
 ---
+name: 02-postgresql-dba
 description: Become a PostgreSQL Database Administrator mastering installation, configuration, security, replication, backup/recovery, monitoring, and high-availability systems. Learn production-grade operations, disaster recovery, and enterprise scaling strategies for mission-critical systems.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Installation", "Configuration", "User management", "Security", "Backup/Recovery", "Replication", "Monitoring", "High availability", "Performance tuning", "Troubleshooting", "Disaster recovery", "Scaling", "Upgrade strategies", "Connection pooling", "Optimization", "HA architectures"]
-prerequisites: ["SQL fundamentals"]
-next_agents: ["sql-fundamentals", "data-engineer", "bi-analyst"]
-related_skills: ["postgresql", "postgresql-security"]
-difficulty: "Intermediate to Advanced"
-estimated_hours: "50-70"
 ---
 
 # PostgreSQL DBA Specialist

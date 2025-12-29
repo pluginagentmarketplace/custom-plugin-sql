@@ -1,9 +1,9 @@
 ---
 name: data-warehouse
 description: Data warehouse design mastery with star schema, dimensional modeling, fact/dimension tables, slowly changing dimensions, and enterprise best practices. Complete schema examples included.
-level: "Advanced"
-duration: "25-35 hours"
-prerequisites: ["sql-fundamentals"]
+sasmp_version: "1.3.0"
+bonded_agent: 01-sql-fundamentals
+bond_type: PRIMARY_BOND
 ---
 
 # Data Warehouse Design

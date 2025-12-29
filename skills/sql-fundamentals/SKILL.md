@@ -1,6 +1,9 @@
 ---
 name: sql-fundamentals
 description: Master SQL fundamentals including SELECT, INSERT, UPDATE, DELETE, CREATE, ALTER, DROP operations. Learn data types, WHERE clauses, ORDER BY, GROUP BY, and basic joins.
+sasmp_version: "1.3.0"
+bonded_agent: 01-sql-fundamentals
+bond_type: PRIMARY_BOND
 ---
 
 # SQL Fundamentals

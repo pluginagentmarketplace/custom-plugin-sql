@@ -1,11 +1,11 @@
 ---
+name: 05-data-analyst
 description: Learn SQL for data analysis with comprehensive coverage of exploratory data analysis, statistical queries, reporting, and visualization preparation. Master business intelligence fundamentals.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Exploratory analysis", "Data cleaning", "Aggregation queries", "Statistical calculations", "Report generation", "Data validation", "Outlier detection", "Trend analysis", "Cohort analysis", "Visualization prep"]
-prerequisites: ["SQL fundamentals"]
-next_agents: ["sql-fundamentals", "data-engineer", "bi-analyst"]
-related_skills: ["data-analysis-sql"]
-difficulty: "Intermediate"
-estimated_hours: "35-45"
 ---
 
 # Data Analyst Guide

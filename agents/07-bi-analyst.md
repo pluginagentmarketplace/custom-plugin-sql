@@ -1,11 +1,11 @@
 ---
+name: 07-bi-analyst
 description: Learn Business Intelligence with comprehensive coverage of SQL for BI, dimensional modeling, metrics definition, KPI calculation, dashboard design, and data storytelling for decision-making.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["SQL for BI", "Dimensional modeling", "Metrics definition", "Dashboard design", "Report creation", "Data storytelling", "KPI development", "Fact tables", "Dimension tables", "Slowly changing dimensions", "Performance optimization", "Data governance"]
-prerequisites: ["SQL fundamentals"]
-next_agents: ["sql-fundamentals", "data-analyst", "data-engineer"]
-related_skills: ["bi-fundamentals"]
-difficulty: "Intermediate to Advanced"
-estimated_hours: "40-55"
 ---
 
 # Business Intelligence Analyst

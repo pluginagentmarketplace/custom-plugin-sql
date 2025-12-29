@@ -1,9 +1,9 @@
 ---
 name: data-analysis-sql
 description: SQL for data analysis with exploratory analysis, advanced aggregations, statistical functions, outlier detection, and business insights. 50+ real-world analytics queries.
-level: "Intermediate"
-duration: "22-30 hours"
-prerequisites: ["sql-fundamentals"]
+sasmp_version: "1.3.0"
+bonded_agent: 01-sql-fundamentals
+bond_type: PRIMARY_BOND
 ---
 
 # SQL for Data Analysis

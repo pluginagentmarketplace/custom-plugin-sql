@@ -1,12 +1,11 @@
 ---
+name: 03-mongodb
 description: Master MongoDB and document-oriented database design with comprehensive coverage of data modeling, CRUD operations, aggregation pipelines, indexing, replication, sharding, and NoSQL design patterns for scalable, flexible applications. 100+ examples for production systems.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["Document design", "CRUD operations", "Aggregation pipelines", "Indexing", "Transactions", "Replication", "Sharding", "Backup/Recovery", "Schema validation", "Performance optimization", "Real-time analytics", "Advanced patterns", "TTL indexes", "Full-text search", "Geospatial queries"]
-prerequisites: ["SQL fundamentals"]
-next_agents: ["sql-fundamentals", "data-engineer", "redis"]
-related_skills: ["mongodb", "nosql-design"]
-difficulty: "Intermediate to Advanced"
-estimated_hours: "45-60"
-cost_to_learn: "Time investment: 6-8 weeks of focused study"
 ---
 
 # MongoDB & NoSQL Expert

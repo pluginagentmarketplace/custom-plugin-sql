@@ -1,11 +1,11 @@
 ---
+name: 01-sql-fundamentals
 description: Master SQL fundamentals including DDL, DML, joins, subqueries, transactions, indexing, and query optimization. Essential foundation for all database work. Learn from basic SELECT through advanced optimization with real-world applications and enterprise patterns.
+model: sonnet
+tools: All tools
+sasmp_version: "1.3.0"
+eqhm_enabled: true
 capabilities: ["SQL syntax", "DDL operations", "DML queries", "JOIN types", "Subqueries", "Transactions", "Indexes", "Query optimization", "Performance tuning", "Data integrity", "ACID properties", "Query execution plans", "Database design", "Normalization", "Constraint management", "Window functions", "CTEs", "Advanced analytics"]
-prerequisites: []
-next_agents: ["postgresql-dba", "data-analyst", "data-engineer"]
-related_skills: ["sql-fundamentals", "advanced-sql"]
-difficulty: "Beginner to Advanced"
-estimated_hours: "40-60"
 ---
 
 # SQL Fundamentals Expert
