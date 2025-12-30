@@ -2,7 +2,7 @@
 name: bi-fundamentals
 description: BI fundamentals with metric definition, KPI calculation, dimensional modeling, dashboard optimization, and data storytelling. 40+ metric examples and calculation patterns.
 sasmp_version: "1.3.0"
-bonded_agent: 01-sql-fundamentals
+bonded_agent: 07-bi-analyst
 bond_type: PRIMARY_BOND
 ---
 

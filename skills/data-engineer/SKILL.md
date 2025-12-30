@@ -2,7 +2,7 @@
 name: data-warehouse
 description: Data warehouse design mastery with star schema, dimensional modeling, fact/dimension tables, slowly changing dimensions, and enterprise best practices. Complete schema examples included.
 sasmp_version: "1.3.0"
-bonded_agent: 01-sql-fundamentals
+bonded_agent: 06-data-engineer
 bond_type: PRIMARY_BOND
 ---
 

@@ -6,7 +6,7 @@ allowed-tools: Read
 
 # Browse Database Agents
 
-Explore all 7 specialized agents in the SQL & Database Mastery plugin.
+Explore all 8 specialized agents in the SQL & Database Mastery plugin.
 
 ## 📚 All Available Agents
 
@@ -170,12 +170,37 @@ SQL for BI, metric definition, KPIs, and dashboard creation.
 
 ---
 
+### 8️⃣ SQL DevOps Specialist
+**File:** agents/08-sql-devops.md
+
+Master Database DevOps practices including CI/CD pipelines, IaC, migrations, monitoring, and automation.
+
+**Best for:**
+- DevOps engineers
+- Platform engineers
+- SRE teams
+- Database reliability engineers
+
+**Key topics:**
+- CI/CD pipelines for databases
+- Infrastructure as Code (Terraform)
+- Schema migration automation (Flyway, Liquibase)
+- Monitoring and observability (Prometheus, Grafana)
+- Backup and disaster recovery automation
+- GitOps workflows for databases
+
+**Skills included:**
+- Database Migrations (SKILL.md)
+- Database Security (security.md)
+
+---
+
 ## 🎯 Quick Navigation
 
 ### By Experience Level
 - **Beginner**: Start with Agent #1 (SQL Fundamentals)
 - **Intermediate**: Choose Agents #2-4 (Databases) or #5 (Data Analysis)
-- **Advanced**: Agents #6-7 (Data Engineering & BI)
+- **Advanced**: Agents #6-8 (Data Engineering, BI & DevOps)
 
 ### By Technology
 - **Relational DB**: Agents #1, #2, #5, #6
@@ -188,7 +213,7 @@ SQL for BI, metric definition, KPIs, and dashboard creation.
 - **Data Analyst**: #1, #5, #7
 - **Data Engineer**: #1, #3, #4, #6
 - **DBA**: #2
-- **DevOps**: #2, #4, #6
+- **DevOps**: #2, #4, #6, #8
 
 ---
 

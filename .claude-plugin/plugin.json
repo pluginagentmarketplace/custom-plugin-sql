@@ -2,7 +2,7 @@
   "name": "custom-plugin-sql",
   "version": "1.0.0",
   "title": "SQL & Database Mastery",
-  "description": "Comprehensive SQL and database learning system with 7 specialized agents covering SQL fundamentals, PostgreSQL, MongoDB, Redis, Data Analysis, Data Engineering, and BI - designed for complete database mastery",
+  "description": "Comprehensive SQL and database learning system with 8 specialized agents covering SQL fundamentals, PostgreSQL, MongoDB, Redis, Data Analysis, Data Engineering, BI, and DevOps - designed for complete database mastery",
   "author": "Claude Code Plugin Development",
   "license": "SEE LICENSE IN LICENSE",
   "keywords": [
@@ -65,6 +65,12 @@
       "name": "Business Intelligence Analyst",
       "description": "SQL for BI, data modeling, metrics, dashboards, and business analytics",
       "file": "agents/07-bi-analyst.md"
+    },
+    {
+      "id": "sql-devops",
+      "name": "SQL DevOps Specialist",
+      "description": "Database DevOps, CI/CD pipelines, Infrastructure as Code, monitoring, and automation",
+      "file": "agents/08-sql-devops.md"
     }
   ],
   "commands": [
@@ -75,7 +81,7 @@
     },
     {
       "name": "browse-agent",
-      "description": "Explore all 7 database agents",
+      "description": "Explore all 8 database agents",
       "file": "commands/browse-agent.md"
     },
     {
@@ -161,6 +167,36 @@
       "name": "ETL & Data Pipelines",
       "description": "Extract, transform, load, and data pipeline design patterns",
       "file": "skills/data-engineer/etl-pipelines.md"
+    },
+    {
+      "id": "migrations",
+      "name": "Database Migrations",
+      "description": "Schema migrations, version control, and deployment practices",
+      "file": "skills/migrations/SKILL.md"
+    },
+    {
+      "id": "transactions",
+      "name": "Database Transactions",
+      "description": "ACID properties, isolation levels, and concurrency control",
+      "file": "skills/transactions/SKILL.md"
+    },
+    {
+      "id": "mysql",
+      "name": "MySQL Administration",
+      "description": "MySQL database administration, optimization, and development",
+      "file": "skills/mysql/SKILL.md"
+    },
+    {
+      "id": "query-optimization",
+      "name": "Query Optimization",
+      "description": "SQL query optimization, indexing, and performance tuning",
+      "file": "skills/query-optimization/SKILL.md"
+    },
+    {
+      "id": "security",
+      "name": "Database Security",
+      "description": "Access control, encryption, SQL injection prevention, and auditing",
+      "file": "skills/security/SKILL.md"
     }
   ],
   "hooks": {

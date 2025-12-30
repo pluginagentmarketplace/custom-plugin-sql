@@ -2,7 +2,7 @@
 name: postgresql
 description: PostgreSQL administration and setup including installation, configuration, backup/recovery, replication, and high-availability. Learn production PostgreSQL operations.
 sasmp_version: "1.3.0"
-bonded_agent: 01-sql-fundamentals
+bonded_agent: 02-postgresql-dba
 bond_type: PRIMARY_BOND
 ---
 
