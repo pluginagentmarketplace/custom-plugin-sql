@@ -2,7 +2,7 @@
 name: data-analysis-sql
 description: SQL for data analysis with exploratory analysis, advanced aggregations, statistical functions, outlier detection, and business insights. 50+ real-world analytics queries.
 sasmp_version: "1.3.0"
-bonded_agent: 01-sql-fundamentals
+bonded_agent: 05-data-analyst
 bond_type: PRIMARY_BOND
 ---
 

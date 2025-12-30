@@ -2,7 +2,7 @@
 name: redis
 description: Redis data structures and commands including strings, lists, hashes, sets, sorted sets, streams, and transactions for high-performance caching and real-time applications.
 sasmp_version: "1.3.0"
-bonded_agent: 01-sql-fundamentals
+bonded_agent: 04-redis
 bond_type: PRIMARY_BOND
 ---
 

@@ -162,6 +162,31 @@ Answer these questions to assess your SQL knowledge:
 
 ---
 
+### Database DevOps Assessment
+**Time: 10-15 minutes**
+
+1. **CI/CD for Databases**
+   - Have you set up database CI/CD pipelines?
+   - Do you use schema migration tools (Flyway, Liquibase)?
+   - Can you implement zero-downtime migrations?
+
+2. **Infrastructure as Code**
+   - Do you manage databases with Terraform/Pulumi?
+   - Can you provision cloud databases (RDS, Cloud SQL)?
+   - Do you version control infrastructure?
+
+3. **Monitoring & Reliability**
+   - Have you set up database monitoring?
+   - Do you configure automated backups?
+   - Can you implement disaster recovery?
+
+**Your Level:**
+- [ ] Beginner (manual operations)
+- [ ] Intermediate (some automation)
+- [ ] Advanced (full GitOps workflow)
+
+---
+
 ## 📊 Assessment Results
 
 Based on your answers above:
@@ -174,6 +199,7 @@ NoSQL & Caching:       ███░░░░ (43%)
 Data Analysis:         █████░░ (71%)
 Data Engineering:      ██░░░░░ (29%)
 Business Intelligence: ███░░░░ (43%)
+Database DevOps:       ██░░░░░ (29%)
 ```
 
 ### Recommended Learning Path
@@ -205,7 +231,7 @@ After completing assessments:
 
 1. **Bronze Level** - Complete any 2 agents
 2. **Silver Level** - Complete 4 agents
-3. **Gold Level** - Complete all 7 agents
+3. **Gold Level** - Complete all 8 agents
 4. **Platinum** - Build 3+ production projects
 
 ---
