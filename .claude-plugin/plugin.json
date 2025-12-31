@@ -19,10 +19,7 @@
     "Learning Path",
     "Interactive"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pluginagentmarketplace/custom-plugin-sql"
-  },
+  "repository": "https://github.com/pluginagentmarketplace/custom-plugin-sql",
   "agents": [
     {
       "id": "sql-fundamentals",
