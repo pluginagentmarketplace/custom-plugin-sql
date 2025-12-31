@@ -25,71 +25,71 @@
       "id": "sql-fundamentals",
       "name": "SQL Fundamentals Expert",
       "description": "Master SQL basics, DDL, DML, joins, subqueries, and optimization",
-      "file": "agents/01-sql-fundamentals.md"
+      "file": "./agents/01-sql-fundamentals.md"
     },
     {
       "id": "postgresql-dba",
       "name": "PostgreSQL DBA Specialist",
       "description": "Learn PostgreSQL administration, configuration, replication, and high availability",
-      "file": "agents/02-postgresql-dba.md"
+      "file": "./agents/02-postgresql-dba.md"
     },
     {
       "id": "mongodb",
       "name": "MongoDB & NoSQL Expert",
       "description": "Master MongoDB, document models, aggregation, and NoSQL design patterns",
-      "file": "agents/03-mongodb.md"
+      "file": "./agents/03-mongodb.md"
     },
     {
       "id": "redis",
       "name": "Redis & Caching Specialist",
       "description": "Learn Redis data structures, caching strategies, and real-time applications",
-      "file": "agents/04-redis.md"
+      "file": "./agents/04-redis.md"
     },
     {
       "id": "data-analyst",
       "name": "Data Analyst Guide",
       "description": "SQL for analytics, data exploration, reporting, and business intelligence fundamentals",
-      "file": "agents/05-data-analyst.md"
+      "file": "./agents/05-data-analyst.md"
     },
     {
       "id": "data-engineer",
       "name": "Data Engineer Roadmap",
       "description": "Database design for big data, data warehousing, ETL, and scaling systems",
-      "file": "agents/06-data-engineer.md"
+      "file": "./agents/06-data-engineer.md"
     },
     {
       "id": "bi-analyst",
       "name": "Business Intelligence Analyst",
       "description": "SQL for BI, data modeling, metrics, dashboards, and business analytics",
-      "file": "agents/07-bi-analyst.md"
+      "file": "./agents/07-bi-analyst.md"
     },
     {
       "id": "sql-devops",
       "name": "SQL DevOps Specialist",
       "description": "Database DevOps, CI/CD pipelines, Infrastructure as Code, monitoring, and automation",
-      "file": "agents/08-sql-devops.md"
+      "file": "./agents/08-sql-devops.md"
     }
   ],
   "commands": [
     {
       "name": "learn",
       "description": "Start SQL & Database learning path",
-      "file": "commands/learn.md"
+      "file": "./commands/learn.md"
     },
     {
       "name": "browse-agent",
       "description": "Explore all 8 database agents",
-      "file": "commands/browse-agent.md"
+      "file": "./commands/browse-agent.md"
     },
     {
       "name": "assess",
       "description": "Evaluate your database knowledge",
-      "file": "commands/assess.md"
+      "file": "./commands/assess.md"
     },
     {
       "name": "projects",
       "description": "Browse hands-on database projects",
-      "file": "commands/projects.md"
+      "file": "./commands/projects.md"
     }
   ],
   "skills": [
@@ -97,107 +97,107 @@
       "id": "sql-fundamentals",
       "name": "SQL Fundamentals",
       "description": "SQL syntax, DDL, DML, and query basics",
-      "file": "skills/sql-fundamentals/SKILL.md"
+      "file": "./skills/sql-fundamentals/SKILL.md"
     },
     {
       "id": "sql-advanced",
       "name": "Advanced SQL",
       "description": "Joins, subqueries, CTEs, window functions, and optimization",
-      "file": "skills/sql-fundamentals/advanced-sql.md"
+      "file": "./skills/sql-fundamentals/advanced-sql.md"
     },
     {
       "id": "postgresql",
       "name": "PostgreSQL Administration",
       "description": "PostgreSQL setup, configuration, backup, and replication",
-      "file": "skills/postgresql-dba/SKILL.md"
+      "file": "./skills/postgresql-dba/SKILL.md"
     },
     {
       "id": "postgresql-security",
       "name": "PostgreSQL Security",
       "description": "Authentication, roles, privileges, and security best practices",
-      "file": "skills/postgresql-dba/security.md"
+      "file": "./skills/postgresql-dba/security.md"
     },
     {
       "id": "mongodb",
       "name": "MongoDB Mastery",
       "description": "Document models, CRUD, aggregation, and indexing",
-      "file": "skills/mongodb/SKILL.md"
+      "file": "./skills/mongodb/SKILL.md"
     },
     {
       "id": "nosql-design",
       "name": "NoSQL Design Patterns",
       "description": "Denormalization, embedding, references, and schema design",
-      "file": "skills/mongodb/design-patterns.md"
+      "file": "./skills/mongodb/design-patterns.md"
     },
     {
       "id": "redis",
       "name": "Redis Data Structures",
       "description": "Strings, lists, hashes, sets, sorted sets, and advanced features",
-      "file": "skills/redis/SKILL.md"
+      "file": "./skills/redis/SKILL.md"
     },
     {
       "id": "redis-patterns",
       "name": "Redis Patterns & Use Cases",
       "description": "Caching, sessions, rate limiting, real-time applications",
-      "file": "skills/redis/patterns.md"
+      "file": "./skills/redis/patterns.md"
     },
     {
       "id": "data-analysis-sql",
       "name": "SQL for Data Analysis",
       "description": "Exploratory analysis, aggregations, and statistical queries",
-      "file": "skills/data-analyst/SKILL.md"
+      "file": "./skills/data-analyst/SKILL.md"
     },
     {
       "id": "bi-fundamentals",
       "name": "BI Fundamentals",
       "description": "Metrics, dimensions, fact tables, and reporting architecture",
-      "file": "skills/bi-analyst/SKILL.md"
+      "file": "./skills/bi-analyst/SKILL.md"
     },
     {
       "id": "data-warehouse",
       "name": "Data Warehouse Design",
       "description": "Star schema, dimensional modeling, and warehouse architecture",
-      "file": "skills/data-engineer/SKILL.md"
+      "file": "./skills/data-engineer/SKILL.md"
     },
     {
       "id": "etl-pipelines",
       "name": "ETL & Data Pipelines",
       "description": "Extract, transform, load, and data pipeline design patterns",
-      "file": "skills/data-engineer/etl-pipelines.md"
+      "file": "./skills/data-engineer/etl-pipelines.md"
     },
     {
       "id": "migrations",
       "name": "Database Migrations",
       "description": "Schema migrations, version control, and deployment practices",
-      "file": "skills/migrations/SKILL.md"
+      "file": "./skills/migrations/SKILL.md"
     },
     {
       "id": "transactions",
       "name": "Database Transactions",
       "description": "ACID properties, isolation levels, and concurrency control",
-      "file": "skills/transactions/SKILL.md"
+      "file": "./skills/transactions/SKILL.md"
     },
     {
       "id": "mysql",
       "name": "MySQL Administration",
       "description": "MySQL database administration, optimization, and development",
-      "file": "skills/mysql/SKILL.md"
+      "file": "./skills/mysql/SKILL.md"
     },
     {
       "id": "query-optimization",
       "name": "Query Optimization",
       "description": "SQL query optimization, indexing, and performance tuning",
-      "file": "skills/query-optimization/SKILL.md"
+      "file": "./skills/query-optimization/SKILL.md"
     },
     {
       "id": "security",
       "name": "Database Security",
       "description": "Access control, encryption, SQL injection prevention, and auditing",
-      "file": "skills/security/SKILL.md"
+      "file": "./skills/security/SKILL.md"
     }
   ],
   "hooks": {
-    "file": "hooks/hooks.json"
+    "file": "./hooks/hooks.json"
   },
   "homepage": "https://github.com/pluginagentmarketplace/custom-plugin-sql",
   "documentation": "https://github.com/pluginagentmarketplace/custom-plugin-sql/blob/main/README.md",
