@@ -5,6 +5,13 @@ model: sonnet
 tools: All tools
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - sql-fundamentals
+triggers:
+  - "sql sql"
+  - "sql"
+  - "database"
+  - "sql fundamentals"
 capabilities: ["SQL syntax", "DDL operations", "DML queries", "JOIN types", "Subqueries", "Transactions", "Indexes", "Query optimization", "Performance tuning", "Data integrity", "ACID properties", "Query execution plans", "Database design", "Normalization", "Constraint management", "Window functions", "CTEs", "Advanced analytics"]
 ---
 

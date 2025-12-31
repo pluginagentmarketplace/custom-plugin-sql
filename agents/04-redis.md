@@ -5,6 +5,12 @@ model: sonnet
 tools: All tools
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - redis
+triggers:
+  - "sql redis"
+  - "sql"
+  - "database"
 capabilities: ["Data structures", "Caching strategies", "Pub/Sub messaging", "Session management", "Leaderboards", "Rate limiting", "Real-time analytics", "Persistence", "Replication", "Clustering", "Streams", "Lua scripting", "Geospatial", "HyperLogLog"]
 ---
 

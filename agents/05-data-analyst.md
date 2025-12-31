@@ -5,6 +5,14 @@ model: sonnet
 tools: All tools
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - data-analyst
+  - bi-analyst
+  - data-engineer
+triggers:
+  - "sql data"
+  - "sql"
+  - "database"
 capabilities: ["Exploratory analysis", "Data cleaning", "Aggregation queries", "Statistical calculations", "Report generation", "Data validation", "Outlier detection", "Trend analysis", "Cohort analysis", "Visualization prep"]
 ---
 

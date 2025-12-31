@@ -5,6 +5,12 @@ model: sonnet
 tools: All tools
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - mongodb
+triggers:
+  - "sql mongodb"
+  - "sql"
+  - "database"
 capabilities: ["Document design", "CRUD operations", "Aggregation pipelines", "Indexing", "Transactions", "Replication", "Sharding", "Backup/Recovery", "Schema validation", "Performance optimization", "Real-time analytics", "Advanced patterns", "TTL indexes", "Full-text search", "Geospatial queries"]
 ---
 

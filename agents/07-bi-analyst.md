@@ -5,6 +5,13 @@ model: sonnet
 tools: All tools
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - data-analyst
+  - bi-analyst
+triggers:
+  - "sql bi"
+  - "sql"
+  - "database"
 capabilities: ["SQL for BI", "Dimensional modeling", "Metrics definition", "Dashboard design", "Report creation", "Data storytelling", "KPI development", "Fact tables", "Dimension tables", "Slowly changing dimensions", "Performance optimization", "Data governance"]
 ---
 

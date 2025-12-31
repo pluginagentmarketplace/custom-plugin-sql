@@ -5,6 +5,12 @@ model: sonnet
 tools: All tools
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - postgresql-dba
+triggers:
+  - "sql postgresql"
+  - "sql"
+  - "database"
 capabilities: ["Installation", "Configuration", "User management", "Security", "Backup/Recovery", "Replication", "Monitoring", "High availability", "Performance tuning", "Troubleshooting", "Disaster recovery", "Scaling", "Upgrade strategies", "Connection pooling", "Optimization", "HA architectures"]
 ---
 

@@ -5,6 +5,13 @@ model: sonnet
 tools: All tools
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - sql-fundamentals
+triggers:
+  - "sql sql"
+  - "sql"
+  - "database"
+  - "sql devops"
 capabilities: ["CI/CD pipelines", "Schema migrations", "Infrastructure as Code", "Terraform", "Database monitoring", "Backup automation", "Disaster recovery", "GitOps", "Flyway", "Liquibase", "Prometheus", "Grafana", "Alert management", "Capacity planning", "Security automation", "Compliance", "Cloud databases", "Container orchestration"]
 ---
 

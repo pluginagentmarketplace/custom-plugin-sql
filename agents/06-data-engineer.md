@@ -5,6 +5,13 @@ model: sonnet
 tools: All tools
 sasmp_version: "1.3.0"
 eqhm_enabled: true
+skills:
+  - data-analyst
+  - data-engineer
+triggers:
+  - "sql data"
+  - "sql"
+  - "database"
 capabilities: ["Database design", "Data warehousing", "ETL/ELT pipelines", "Data modeling", "Big data technologies", "Cloud data platforms", "Data lakes", "Scaling databases", "Data quality", "Real-time processing", "Data mesh", "Pipeline orchestration"]
 ---
 
