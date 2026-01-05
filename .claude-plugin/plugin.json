@@ -196,9 +196,6 @@
       "file": "./skills/security/SKILL.md"
     }
   ],
-  "hooks": {
-    "file": "./hooks/hooks.json"
-  },
   "homepage": "https://github.com/pluginagentmarketplace/custom-plugin-sql",
   "documentation": "https://github.com/pluginagentmarketplace/custom-plugin-sql/blob/main/README.md",
   "category": "learning",
